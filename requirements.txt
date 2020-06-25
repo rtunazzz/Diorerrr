@@ -1,0 +1,4 @@
+requests~=2.23.0
+names~=0.3.0
+beautifulsoup4~=4.9.1
+colorama~=0.4.3
