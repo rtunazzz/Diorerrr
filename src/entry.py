@@ -14,6 +14,7 @@ class Diorerrr:
     """
     Diorerrr class that hold all related variables/methods to entering the Air Dior raffle
     """
+
     def __init__(self) -> None:
         self._load_personal_data()
         self._validate_size()
@@ -282,14 +283,47 @@ class Diorerrr:
         print("------------", Style.BRIGHT + "MODES: ", Style.NORMAL + "------------")
         print("1.", Style.BRIGHT + Fore.RED + "Y" + Fore.GREEN + "O" + Fore.CYAN + "L" + Fore.MAGENTA + "O")
         print("2. Safe")
-        while mode != 0 and mode != 1:
+        while mode != 1 and mode != 2:
             count = input("Which mode would you like to run?\n")
             try:
                 mode = int(count)
             except ValueError:
                 print(Fore.RED + "Please enter a number.")
                 continue
-        self.mode = mode + 1
+        if mode == 1:
+            print(Style.BRIGHT + Fore.RED + "Y" + Fore.GREEN + "O" + Fore.CYAN + "L" + Fore.MAGENTA + "O"
+                  + Fore.WHITE + " mode initalized!")
+            print()
+            print(Style.BRIGHT + Fore.RED + "W" +
+                  Fore.CYAN + "E" +
+                  Fore.GREEN + "L" +
+                  Fore.YELLOW + "C" +
+                  Fore.BLUE + "O" +
+                  Fore.MAGENTA + "M" +
+                  Fore.RED + "E" +
+                  " " +
+                  Fore.CYAN + "B" +
+                  Fore.GREEN + "R" +
+                  Fore.YELLOW + "A" +
+                  Fore.BLUE + "V" +
+                  Fore.MAGENTA + "E" +
+                  " " +
+                  Fore.CYAN + "CH" +
+                  Fore.GREEN + "A" +
+                  Fore.YELLOW + "L" +
+                  Fore.BLUE + "L" +
+                  Fore.MAGENTA + "E" +
+                  Fore.CYAN + "N" +
+                  Fore.GREEN + "G" +
+                  Fore.YELLOW + "E" +
+                  Fore.BLUE + "R" +
+                  " " +
+                  Fore.MAGENTA + "!" +
+                  Fore.GREEN + "!" +
+                  Fore.YELLOW + "!" +
+                  Fore.BLUE + "!")
+
+        self.mode = mode
 
     def run(self) -> None:
         """
