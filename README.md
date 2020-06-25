@@ -1,5 +1,8 @@
 <p align="center"><img width=60% src="https://i.imgur.com/IRwvlcq.png"></p>
 
+## Update June 25th, 1:00 PM EST
+Dior now closed their raffle, unfortunate. 🙁
+
 # Introduction
 This is an open source automation script for the [Air Dior](https://www.dior.com/en_int/mens-fashion/air-dior) raffle. It was made just as a form of pracice. Have fun with it! ✨
 
