@@ -23,6 +23,7 @@ There are two modes.
  
 # Example
 <p align="center"><img src="https://i.imgur.com/kl8IdZJ.png"></p>
+<p align="center"><img src="https://i.imgur.com/lbyudlo.png"></p>
 
 # License
 Licensed under the MIT License - see the [LICENSE file](https://github.com/rtunazzz/Diorerrr/blob/master/LICENSE) for more details.
