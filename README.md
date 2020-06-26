@@ -1,5 +1,8 @@
 <p align="center"><img width=60% src="https://i.imgur.com/IRwvlcq.png"></p>
 
+## Update June 25th, 1:00 PM EST
+Dior now closed their raffle, unfortunate. 🙁
+
 # Introduction
 This is an open source automation script for the [Air Dior](https://www.dior.com/en_int/mens-fashion/air-dior) raffle. It was made just as a form of pracice. Have fun with it! ✨
 
@@ -20,6 +23,7 @@ There are two modes.
  
 # Example
 <p align="center"><img src="https://i.imgur.com/kl8IdZJ.png"></p>
+<p align="center"><img src="https://i.imgur.com/lbyudlo.png"></p>
 
 # License
 Licensed under the MIT License - see the [LICENSE file](https://github.com/rtunazzz/Diorerrr/blob/master/LICENSE) for more details.
