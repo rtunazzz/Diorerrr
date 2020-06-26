@@ -74,6 +74,8 @@ class Diorerrr:
         try:
             self.shoe_size = int(self.shoe_size)
             if 4 < self.shoe_size < 17 and self.shoe_size % 0.5 == 0:  # s/o Connor#4321 for the tip!
+                return
+            else:
                 log_message("Error",
                             "Check your config.json file and make sure your Shoe size is correct. It should be "
                             "just a number, for example: '6' for UK 6, '6.5' for UK 6.5 etc.")
